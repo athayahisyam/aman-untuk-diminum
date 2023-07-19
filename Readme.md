@@ -137,7 +137,7 @@ Adapun tahapan yang dilakukan dalam melakukan training adalah sebagai berikut:
 
 3. Karena dataset terdiri dari hasil pengukuran yang berbeda metrik, dilakukan tahapan *feature scaling*. Dari hasil *feature scaling*, data berhasil diturunkan dengan menjaga variabilitasnya
 
-4. Melatih model dengan Algoritma Random Forest, dengan parameter` *random state`yang ditentukan adalah 52 dan nilai `n_estimators` adalah *default* 300.
+4. Melatih model dengan Algoritma Random Forest, dengan parameter `random state` yang ditentukan adalah 52 dan nilai `n_estimators` adalah *default* 300.
 
 ## Evaluation
 
