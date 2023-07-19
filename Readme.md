@@ -133,7 +133,7 @@ Adapun tahapan yang dilakukan dalam melakukan training adalah sebagai berikut:
 
 1. Pemecahan dataset menjadi fitur (X) dan target variabel y, yakni `Potability`
 
-2. Pemecahan dua variabel tersebut menjadi variabel *train* dan *test*, `random state` yang ditentukan adalah 52. Sebanyak 20% data digunakan untuk *test* dan sisanya, sebanyak 80% digunakan untuk *training.*
+2. Pemecahan dua variabel tersebut menjadi variabel *train* dan *test* , `random state` yang ditentukan adalah 52. Sebanyak 20% data digunakan untuk *test* dan sisanya, sebanyak 80% digunakan untuk *training.*
 
 3. Karena dataset terdiri dari hasil pengukuran yang berbeda metrik, dilakukan tahapan *feature scaling*. Dari hasil *feature scaling*, data berhasil diturunkan dengan menjaga variabilitasnya
 
@@ -182,7 +182,9 @@ Namun perlu digaris bawahi bahwa model ini mampu mengidentifikasi hampir 68% sec
 # Referensi
 
 [1] Roberto F., et al. Evaluation of a GFP reporter gene construct for environmental arsenic detection. Talanta, 2002, 58(1): 181-188.
+
 [2] Erdogan O., et al. Critical evaluation of wastewater treatment and disposal strategies for Istanbul with regards to water quality monitoring study results. ELSEVISE, 2008, 226: 231-248.
+
 [3] Gao, et al. Water Potability Analysis and Prediction, Highlight in Science, Engineering and Technology, Vol. 6, AMMSAC 2022
 
 
