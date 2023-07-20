@@ -78,7 +78,7 @@ Visualisasi ini dilakukan untuk mengetahui apakah ada pola tertentu, dari hasil 
 
 Gambar 1. *Null Value* pada data.
 
-![Null Value](https://github.com/athayahisyam/dcdshit/assets/31662860/69b31c3d-cfaa-4cbe-aa4c-3de3791e7c9f)
+![test_nullvalue](https://github.com/athayahisyam/aman-untuk-diminum/assets/31662860/90b61389-fb20-499a-9195-fd71913ad9c1)
 
 Dapat dilihat dari gambar 1, bahwa *null value* muncul tidak dalam pola tertentu, namun tersebar secara acak pada data.
 
@@ -91,19 +91,19 @@ Hasil dari pemeriksaan *skewness* dan *box plot* ditunjukkan pada Gambar 2, 3, d
 
 Gambar 2. Histogram Dataset
 
-![Skewness](https://github.com/athayahisyam/dcdshit/assets/31662860/84411060-34d0-4857-b47a-856955121f32)
+![Skewness](https://github.com/athayahisyam/aman-untuk-diminum/assets/31662860/78218546-c407-419f-860c-5433af5e52df)
 
 Pada tahap ini ditemukan bahwa fitur `Solids` memiliki skewness atau tendensi ke kanan, sehingga dilakukan transformasi *square root*. Alasan penggunaan adalah transformasi tersebut menjaga (*retain*) urutan besaran angka. Hasil setelah dilakukan proses transformasi *square root* ditunjukkan pada Gambar 3.
 
 Gambar 3. Hasil *Square Root Transformation* pada Solid "meluruskan" *skewness* pada `Solid`
 
-![skewness2](https://github.com/athayahisyam/dcdshit/assets/31662860/17b17eb6-c756-45ee-840a-55cebe142280)
+![skewness2](https://github.com/athayahisyam/aman-untuk-diminum/assets/31662860/1a56cbf8-98e4-4ce0-9a06-0186d4fe8542)
 
 Pada histogram di Gambar 3, dapat dilihat `Solids` sudah memiliki *skewness* yang seimbang. 
 
 Gambar 4. *Box Plot* dari Dataset
 
-![boxplot](https://github.com/athayahisyam/dcdshit/assets/31662860/aa387d22-16af-44d9-8f07-64ca4c90e223)
+![boxplot](https://github.com/athayahisyam/aman-untuk-diminum/assets/31662860/97de4b95-e82a-44a6-84f2-772884f383a3)
 
 Pada tahapan ini outlier diketahui dengan Box Plot. Adapun outlier yang ada tidak diubah, karena algoritma *Random Forest* andal mengatasi outlier ini. Pada algoritma *random forest*, *outlier* ditangani dengan tiga cara:
 
@@ -133,11 +133,11 @@ Adapun tahapan yang dilakukan dalam melakukan training adalah sebagai berikut:
 
 1. Pemecahan dataset menjadi fitur (X) dan target variabel y, yakni `Potability`
 
-2. Pemecahan dua variabel tersebut menjadi variabel *train* dan *test*, `random state` yang ditentukan adalah 52. Sebanyak 20% data digunakan untuk *test* dan sisanya, sebanyak 80% digunakan untuk *training.*
+2. Pemecahan dua variabel tersebut menjadi variabel *train* dan *test* , `random state` yang ditentukan adalah 52. Sebanyak 20% data digunakan untuk *test* dan sisanya, sebanyak 80% digunakan untuk *training.*
 
 3. Karena dataset terdiri dari hasil pengukuran yang berbeda metrik, dilakukan tahapan *feature scaling*. Dari hasil *feature scaling*, data berhasil diturunkan dengan menjaga variabilitasnya
 
-4. Melatih model dengan Algoritma Random Forest, dengan parameter` *random state`yang ditentukan adalah 52 dan nilai `n_estimators` adalah *default* 300.
+4. Melatih model dengan Algoritma Random Forest, dengan parameter `random state` yang ditentukan adalah 52 dan nilai `n_estimators` adalah *default* 300.
 
 ## Evaluation
 
@@ -182,7 +182,9 @@ Namun perlu digaris bawahi bahwa model ini mampu mengidentifikasi hampir 68% sec
 # Referensi
 
 [1] Roberto F., et al. Evaluation of a GFP reporter gene construct for environmental arsenic detection. Talanta, 2002, 58(1): 181-188.
+
 [2] Erdogan O., et al. Critical evaluation of wastewater treatment and disposal strategies for Istanbul with regards to water quality monitoring study results. ELSEVISE, 2008, 226: 231-248.
+
 [3] Gao, et al. Water Potability Analysis and Prediction, Highlight in Science, Engineering and Technology, Vol. 6, AMMSAC 2022
 
 
