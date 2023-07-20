@@ -1,6 +1,7 @@
 # Aman untuk Diminum - Algoritma Pemelajaran Mesin untuk Identifikasi Air yang Dapat Diminum
 
-## Laporan Proyek Machine Learning - Hisyam Athaya
+## Hisyam Athaya
+Laporan dibuat untuk memenuhi persyaratan parsial untuk kelulusan dari *online course* Pemelajaran Mesin Terapan dari [Dicoding](https://www.dicoding.com/academies/319).
 
 ## Domain Proyek
 
